@@ -1,0 +1,31 @@
+/* Apply to the entire body to center all content */
+body {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  background-color: #211e2f;
+  color: #ccc;
+  font-family: "Avenir";
+
+}
+
+img {
+  width:20%;
+}
+
+a{
+  color:#ccc;
+  margin-top: 20px;
+
+}
+
+h4{
+  max-width: 75%;
+}
+.button-group {
+  display: flex;
+  justify-content: center; /* Center the button group */
+  flex-wrap: wrap; /* Allow buttons to wrap if necessary */
+}
